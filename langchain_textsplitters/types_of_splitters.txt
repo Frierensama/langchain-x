@@ -1,0 +1,4 @@
+Length Based
+Text Structure Based
+Document Based
+Semantic Meaning Based
