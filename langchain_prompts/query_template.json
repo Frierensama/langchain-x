@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "exp_length",
+        "exp_style",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    prepare a summary for {topic} in data science with following specifications:\n    Explaination style : {exp_style}\n    Explaination length: {exp_length}\n    1.Mathematical Details:\n    include relevant mathematical equations, simple snippets\n    2.analogies:\n    simplify complex analogies\n\n    if you dont know about the topic in detailed, tell i dont have enough data to provide the infromation.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
