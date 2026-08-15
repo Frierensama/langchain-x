@@ -1,0 +1,4 @@
+String Output Parser - entire content as string
+JSON Output Parser - wont enforce the schema, like point 1 , point 2 , point 3
+Structured Output Parser - used to enforce a schema like point 1, point 2 only , tho cannot validate data types
+Pydantic Output Parser 
