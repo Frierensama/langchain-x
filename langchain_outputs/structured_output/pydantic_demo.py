@@ -12,7 +12,7 @@ model = ChatHuggingFace(llm=llm_endpoint)
 
 #  create pydantic object to specify schema
 class customdict(BaseModel):
-    name : str = Field(description='tell the name of the first person in response')
+    name : str = Field(description='tell the name of the first person in response', examples=['ram','xie'])
     age : int = Field(description='age of the person')
     gender : Annotated[Optional[str], 'gender of the person']
     email : EmailStr
